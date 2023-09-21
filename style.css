@@ -1,26 +1,29 @@
-header {
-    background-color: #fa049c;
-    padding: 20px;
- }
- ul.nav{
-    margin-left: 0px;
-    padding-left: 0px;
-    list-style: none;
+header{
+   background-color: #6e6e6e;
+            padding: 15px;
 }
-ul.nav a {
-    display: block;
-    width: 7em;
-    padding:10px;
-    background-color: #f4f4f4;
-    border-top: 1px dashed #333;
-    border-right: 1px dashed #333;
-    border-left: 5px solid #333;
-    text-decoration: none;
-    color: #333;
+ .logo{
+    font-size: 4em;
+    color: #fff;
 }
-ul.nav li:last-child a {
-    border-bottom: 1px dashed #333;
+.Осебе-article__text{
+color: black;
 }
+.Осебе-article__title{
+    padding: 5px;
+    color: #1d5c81;
+}
+.header_nav li{
+        display: inline-block;
+}
+.header_nav a{
+            color: #fff;
+            text-decoration: none;
+            padding: 0 80px;
+}
+.header_nav li:first-child a{
+            padding-left: 0;
+}  
 .centre{
     margin-left: auto;
     margin-right: auto;
